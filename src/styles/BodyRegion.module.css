@@ -1,0 +1,194 @@
+/*
+.bodyRegionWrapper {
+    width: 300px;
+    height:450px;
+    position: relative;
+    z-index: 10;
+}
+*/
+
+.bodyRegionWrapper {
+    width: 100%;
+    /* height: 100%; */
+    /* min-height: 360px; */
+    position: relative;
+    z-index: 10;
+}
+
+.bodyRegionWrapper img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #cccccc;
+    position: absolute;
+    z-index: 20;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.circle:hover {
+    background-color: #ff0000;
+    opacity: 0.6;
+}
+
+/*
+.circleLeft11 {
+    composes: circle;
+    top: 55px;
+    left: 95px;
+}
+.circleLeft11Selected {
+    composes: circleLeft11;
+    background-color: #ff0000;
+    opacity: 1;
+}
+
+.circleRight11 {
+    composes: circle;
+    top: 55px;
+    left: 30px;
+}
+.circleRight11Selected {
+    composes: circleRight11;
+    background-color: #ff0000;
+    opacity: 1;
+}
+
+.circleLeft12 {
+    composes: circle;
+    top: 90px;
+    left: 105px;
+}
+.circleLeft12Selected {
+    composes: circleLeft12;
+    background-color: #ff0000;
+    opacity: 1;
+}
+
+.circleRight12 {
+    composes: circle;
+    top: 90px;
+    left: 20px;
+}
+.circleRight12Selected {
+    composes: circleRight12;
+    background-color: #ff0000;
+    opacity: 1;
+}
+.circleLeft13 {
+    composes: circle;
+    top: 106px;
+    left: 162px;
+}
+.circleLeft13Selected {
+    composes: circleLeft13;
+    background-color: #ff0000;
+    opacity: 1;
+}
+.circleRight13 {
+    composes: circle;
+    top: 106px;
+    left: 254px;
+}
+.circleRight13Selected {
+    composes: circleRight13;
+    background-color: #ff0000;
+    opacity: 1;
+}
+.circleLeft14 {
+    composes: circle;
+    top: 130px;
+    left: 112px;
+}
+.circleLeft14Selected {
+    composes: circleLeft14;
+    background-color: #ff0000;
+    opacity: 1;
+}
+
+.circleRight14 {
+    composes: circle;
+    top: 130px;
+    left: 12px;
+}
+.circleRight14Selected {
+    composes: circleRight14;
+    background-color: #ff0000;
+    opacity: 1;
+}
+
+
+
+.circleLeft16 {
+    composes: circle;
+    top: 170px;
+    left: 118px;
+}
+.circleLeft16Selected {
+    composes: circleLeft16;
+    background-color: #ff0000;
+    opacity: 1;
+}
+
+.circleRight16 {
+    composes: circle;
+    top: 170px;
+    left: 6px;
+}
+.circleRight16Selected {
+    composes: circleRight16;
+    background-color: #ff0000;
+    opacity: 1;
+}
+*/
+
+
+.display {
+    top: 20px;
+    left: 350px;
+    font-family: "FrutigerRoman", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+.display b {
+    color: #ff0000;
+    font-weight: normal;
+}
+
+.bodyRegionWrapper svg {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.bodyRegionWrapper svg circle {
+    border-radius: 15px;
+    stroke: #cccccc;
+    fill: #cccccc;
+    position: absolute;
+    z-index: 20;
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.bodyRegionWrapper svg circle:hover {
+    stroke: #ff0000;
+    fill: #ff0000;
+    opacity: 0.4;
+}
+
+.selected {
+    stroke: #ff0000 !important;
+    fill: #ff0000 !important;
+    opacity: 1 !important;
+}
+
+
